@@ -148,7 +148,7 @@ section,
   Utility Classes
   /////////////////////// */
 
-/* select all direct childen of .flow
+/* select all direct children of .flow
    and add margin to the top for proper
    spacing */
 
@@ -176,7 +176,7 @@ section,
   text-align: center;
 }
 
-/* typgraphy */
+/* typography */
 
 .article-title,
 .section-title {
