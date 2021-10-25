@@ -22,6 +22,14 @@
   --clr-neutral-400: hsla(0, 0%, 40%, 1);
   --clr-neutral-500: hsla(0, 0%, 60%, 1);
   --clr-neutral-900: hsla(0, 0%, 10%, 1);
+
+  --color-bg-primary:#131313;
+  --color-bg-secondary:#171717;
+  --color-grad-bottom:#132E56;
+  --color-grad-top:#00716A;
+  --color-green-accent:#00B255;
+  --color-text-primary:#ffffff;
+  --color-text-muted:#AAAAAA;
 }
 
 @media (min-width: 35em) {
@@ -32,13 +40,7 @@
     --fs-600: 2.25rem;
     --fs-700: 3rem;
 
-    --color-bg-primary:#131313;
-    --color-bg-secondary:#171717;
-    --color-grad-bottom:#132E56;
-    --color-grad-top:#00716A;
-    --color-green-accent:#00B255;
-    --color-text-primary:#ffffff;
-    --color-text-muted:#AAAAAA;
+
   }
 }
 
@@ -225,6 +227,7 @@ section.hero{
 
 .page-header {
   padding: 2em 0;
+  color: var(--clr-neutral-100);
   background: linear-gradient(var(--color-bg-primary), var(--color-bg-secondary));
   box-shadow: 
       0 4px 16px rgba(0, 0, 0, 0.4),
