@@ -1,0 +1,40 @@
+---
+title: Lime
+layout: "base2.njk"
+---
+
+<section class="hero2">
+  <div class="container flow2">
+      <div class="hero__content flow2">
+        <h1 class="section-title2">Movies, Music & Amazing Drink Recipes</h1>
+        <p>We recently got Limes instead of lemons this year, why not add that to a drink</p>
+        <p>Create your own virtual happy hour</p>
+        <div class="flex-group2">
+          <a href="learn" class="btn btn--primary">Learn more</a>
+          <a href="happyhour" class="btn btn--primary">Happy Hour </a>
+          <a href="./blog" class="btn btn--neutral">Most recent articles</a>
+        </div>
+      </div>
+      <div>
+        <img src="//unsplash.it/510" alt="" class="hero__image">
+      </div>
+  </div>
+</section>
+
+<section id="featured-articles learn" class="featured-articles learn">
+  <div class="container flow">
+    <h2 class="section-title text-center ">Featured articles</h2>
+    <p class="text-center">Happy Hour Time</p>
+    <ul role="list" class="articles__list flow">
+      
+      {%- for post in collections.featured | reverse -%}
+        {% include 'article-snippet.njk' %}
+      {%- endfor %}
+
+         
+    </ul>
+  </div>
+</section> 
+
+    
+
