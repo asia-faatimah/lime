@@ -99,7 +99,12 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  box-shadow: 
+  0 4px 16px rgba(0, 0, 0, 0.4),
+  0 8px 18px rgba(0, 0, 0, 0.2);
+  
 }
+
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -170,6 +175,7 @@ section,
   margin-top: var(--flow-spacer, 1em);
 }
 
+
 .container {
   margin-inline: auto;
   padding-inline: 1.5em;
@@ -196,6 +202,14 @@ section,
 .section-title {
   color: var(--clr-primary-500);
 }
+.section-titleLeft{
+  color: var(--clr-primary-500);
+  font-size: var(--fs-600);
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-900);
+  line-height: 1.1;
+  padding-left: 50px;
+}
 
 .article-title {
   font-size: var(--fs-700);
@@ -204,9 +218,7 @@ section,
 .section-title {
   font-size: var(--fs-600);
 }
-section.hero{
-  background-image: url('/limeBgd.jpg');
-}
+
 /* //////////////////////
   TO DO LIST
 
@@ -278,10 +290,21 @@ section.hero{
   /////////////////////// 
 
 */
+section.hero{
+  background-image: url('/limeBgd.jpg');
+}
+.hero-title{
+  width: 954px;
+  font-size: 84px;
+  line-height: 104px;
+  padding-bottom: 24px;
+
+}
 .hero-container{
   background-image: url('./assets/limeBgd.jpg');
+  
   object-fit: cover;
-  height: 600px;
+  height: 300v;
 
   
 }
@@ -293,13 +316,18 @@ section.hero{
   ;*/
   align-items: center;
   display: grid;
-  padding-top: 150px;
-  
-  
-
-
-  
+  padding-top: 2px; 
 }
+.hero-pRight{
+ padding-right: 50px;
+ padding-top: 50px;
+}
+.hero-pLeft{
+  padding-left: 50px;
+  padding-top: 50px;
+ }
+ 
+
 /* Hide
 .hero__image {
   width: 100%;

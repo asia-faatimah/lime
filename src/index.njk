@@ -6,12 +6,11 @@ layout: "base.njk"
 <section class="hero" >
   <div class="container flow" >
       <div class="hero__content flow">
-        <h1 class="section-title">Welcome to my blog!</h1>
-        <p>I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
-        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        <h1 class="section-title hero-title">Listen, Watch, Drink and share the fun!</h1>
+        <p class="hero-p">We got more than lemons, we got limes! Why not use them for Happy Hour!</p>
         <div class="flex-group">
-          <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
-          <a href="./blog" class="btn btn--neutral">Most recent articles</a>
+          <a href="#featured-articles" class="btn btn--primary">Learn more</a>
+          <a href="./blog" class="btn btn--neutral">Start Happy Hour</a>
         </div>
       </div>
       <div>
@@ -23,18 +22,65 @@ layout: "base.njk"
 
 <section id="featured-articles" class="featured-articles">
   <div class="container flow" id=" hero-section" >
-    <h2 class="section-title text-center ">Featured articles</h2>
-    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all about.</p>
-    <ul role="list" class="articles__list flow">
+    <h2 class="section-title text-center ">About Lime</h2>
+    <p class="text-center">Why we created all this good stuff</p>
+   {# <ul role="list" class="articles__list flow">
       
-      {%- for post in collections.featured | reverse -%}
+      {%- for post in collections.main | reverse -%}
         {% include 'article-snippet.njk' %}
       {%- endfor %}
 
          
-    </ul>
+    </ul>#}
+
+  
+<section class="hero" >
+  <div class="container flow" >
+      <div class="hero__content-p flow-p">
+        <h1 class="section-title">Lime </h1>
+        <p class="hero-pRight">I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
+        <p class="hero-pRight">Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        
+      </div>
+      <div>
+        <img src="./assets/blog/covid.gif" alt="" class="hero__image">
+      </div>
   </div>
-</section> 
+</section>
+
+<section class="hero" >
+  <div class="container flow" >
+
+      <div>
+        <img src="./assets/blog/missHand.gif" alt="" class="hero__image hero-imageLeft">
+      </div>
+
+      <div class="hero__content-p flow-p">
+        <h1 class="section-titleLeft">Connect again</h1>
+        <p class="hero-pLeft">I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
+        <p class="hero-pLeft">Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        
+      </div>
+
+  </div>
+</section>
+
+<section class="hero" >
+  <div class="container flow" >
+      <div class="hero__content-p flow-p">
+        <h1 class="section-title">Share Happy Hour </h1>
+        <p class="hero-pRight">I use this space to document my adventures in front-end development, sharing how I’ve overcome issues I’ve run into, useful resources, and more.</p>
+        <p class="hero-pRight">Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        
+      </div>
+      <div>
+        <img src="./assets/blog/happyHour.gif" alt="" class="hero__image">
+      </div>
+  </div>
+</section>
+
+  
+
 {#
 ////////////////////////////////////////origin section
 
