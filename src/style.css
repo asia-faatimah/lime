@@ -474,6 +474,17 @@ section.hero{
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
 }
+
+/* //////////////////////
+  happyHour Page Card Styling
+  /////////////////////// */
+
+
+
+happyHour-body{
+
+  background-color:gradient 
+}
 /* //////////////////////
   Card Styling
   /////////////////////// */
