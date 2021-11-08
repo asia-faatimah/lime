@@ -8,12 +8,23 @@ layout: 'base.njk'
 <h1 class="section-title">Recent articles</h1>
 
 <ul role="list" class="articles__list flow">
+  
+    {% include 'card.njk' %}
+  
+</ul>
+  </div>
+{# -- removed 
+<ul role="list" class="articles__list flow">
   {%- for post in collections.post | reverse -%}
     {% include 'article-snippet.njk' %}
   {%- endfor %}
 </ul>
-  </div>
-{#<ul role="list" class="articles__list flow"><li>
+
+
+
+
+
+<ul role="list" class="articles__list flow"><li>
          <article class="snippet">
   <img src="/assets/blog/carbon-2021-06-11t092807.024.png" alt="a man on his computer" class="snippet__image">
   <h3 class="snippet__title"><a href="/blog/another-article/">Another article!!</a></h3>
