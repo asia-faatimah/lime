@@ -202,8 +202,14 @@ section,
 .section-title {
   color: var(--clr-primary-500);
 }
+.section-title.text-center {
+  color: var(--color-green-accent);
+}
+.section-title.section {
+  color: var(--color-green-accent);
+}
 .section-titleLeft{
-  color: var(--clr-primary-500);
+  color: var(--color-green-accent);
   font-size: var(--fs-600);
   font-family: var(--ff-heading);
   font-weight: var(--fw-900);
