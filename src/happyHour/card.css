@@ -178,7 +178,7 @@ table {
 .pl-about{
     font-size: 0.9375rem;
     
-=======
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -235,8 +235,6 @@ table {
 --color-green-accent:#00B255;
 --color-text-primary:#ffffff;
 --color-text-muted:#AAAAAA;
-
-
 }
 
 body{
