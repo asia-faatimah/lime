@@ -373,7 +373,11 @@ section.hero{
     font-size: var(--fs-300);
     opacity: .9;
   }
+#card-container {
+  background: rgb(0,178,85);
+  background: linear-gradient(circle, rgba(0,178,85,1) 0%, rgba(0,113,106,1) 35%, rgba(23,23,23,1) 100%);
 
+}
 /* //////////////////////
   Article snippets
   /////////////////////// */
@@ -488,10 +492,7 @@ section.hero{
 
 
 
-happyHour-body{
 
-  background-color:gradient 
-}
 /* //////////////////////
   Card Styling
   /////////////////////// */
@@ -501,7 +502,7 @@ happyHour-body{
     place-content: center;
     background: var(--color-bg-primary);
     font-family:poppins;
-    color: var(--color-text-primary);
+    color: var(--color-green-accent);
 }
 .grid-container{
     
@@ -513,18 +514,19 @@ happyHour-body{
           ". . ."; 
 }
 .watermark {
-    width: 18px;
-    position: absolute;
-    left: 1rem;
+    width: 224px;
+    position: relative;
     top: 1rem;
-    opacity: 0.5;
+    
 
 }
 .card {
     size: 256px;
     width: 256px;
+    height: 450px;
     padding: 1rem;
     background: var(--color-bg-secondary);
+    color: var(--color-text-primary);
     border-radius:0.5rem;
     cursor: pointer;
 
@@ -554,6 +556,7 @@ happyHour-body{
     display: flex;
     flex-direction: column;
     opacity: 0.8;
+    background-image: url(https://occ-0-448-444.1.nflxso.net/dnm/api/v6/X194…ibnZvIkRWGcMpzsCvJ9ugslqRcb-29SKiFEf0Jh.jpg?r=0df);
     /*transform: translate(-1rem);*/
 
 }
@@ -608,10 +611,18 @@ happyHour-body{
 }
 .pl-name{
     font-size: 1rem;
+    font-weight: 100px;
     margin-bottom: .4rem;
+    padding: 1rem;
 
 }
 .pl-about{
     font-size: 0.9375rem;
 
+}
+.card_img{
+  background-image:url('/src/assets/nailedIt.svg');
+}
+.happyHour {
+color: var(--color-text-primary);
 }
