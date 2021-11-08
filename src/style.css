@@ -344,7 +344,8 @@ section.hero{
 }
 
 .featured-articles {
-  background-color: var(--clr-primary-200);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary );
 }
 
 .articles__list {
